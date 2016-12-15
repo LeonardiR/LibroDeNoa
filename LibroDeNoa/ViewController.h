@@ -12,9 +12,10 @@
     BOOL troncClicked;
 }
 @property (weak, nonatomic) IBOutlet UIImageView *capImage;
-
 @property (strong, nonatomic) IBOutlet UIImageView *tiet_cos;
 @property (weak, nonatomic) IBOutlet UILabel *storyLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *carlotaBici;
+@property (weak, nonatomic) IBOutlet UIImageView *carlotaHead;
 
 - (IBAction)clickTronc:(id)sender;
 
