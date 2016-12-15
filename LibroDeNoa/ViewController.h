@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *capImage;
 
 @property (strong, nonatomic) IBOutlet UIImageView *tiet_cos;
+@property (weak, nonatomic) IBOutlet UILabel *storyLabel;
 
 - (IBAction)clickTronc:(id)sender;
 

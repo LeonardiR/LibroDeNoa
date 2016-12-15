@@ -26,9 +26,13 @@
                                                  name:nil
                                                object:nil];
     
+    
+    
     [self configTietNormal];
     [_tiet_cos startAnimating];
     [_capImage setHidden:true];
+    
+    [_storyLabel setFont:[UIFont systemFontOfSize:35]];
 }
 
 - (void) configTietNormal {

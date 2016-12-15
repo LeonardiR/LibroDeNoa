@@ -27,7 +27,7 @@
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01_Arbres1.png" id="KPC-VY-ozX">
-                                <rect key="frame" x="683" y="91" width="512" height="391"/>
+                                <rect key="frame" x="683" y="91" width="500" height="391"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01_tiet_estatic.png" id="FgY-b4-m9N">
@@ -60,10 +60,6 @@
                                 <rect key="frame" x="1027" y="466" width="259" height="284"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01_planta groga1.png" id="Nyr-kU-XKY">
-                                <rect key="frame" x="1137" y="663" width="131" height="178"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01_planta Verda1.png" id="kHz-NR-6PB">
                                 <rect key="frame" x="1191" y="441" width="240" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -83,11 +79,38 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.0050567208904109592" colorSpace="calibratedWhite"/>
                             </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="TOn-mC-O3Z">
+                                <rect key="frame" x="0.0" y="586" width="1366" height="438"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01_planta groga1.png" id="Nyr-kU-XKY">
+                                        <rect key="frame" x="1147" y="82" width="118" height="159"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01_merli_estatic.png" id="lv3-CM-hrU">
+                                        <rect key="frame" x="322" y="82" width="213" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01 - Carretó.png" id="0f1-bS-Mtc">
+                                        <rect key="frame" x="-32" y="-2" width="368" height="326"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Noa y su gato, Línux, pasan unos días en la granja del tío y la tía de Noa." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yhb-Vw-oww">
+                                        <rect key="frame" x="268" y="249" width="899" height="122"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="capImage" destination="34s-cK-ZAR" id="fLe-gw-Ml1"/>
+                        <outlet property="storyLabel" destination="yhb-Vw-oww" id="usg-Aw-506"/>
                         <outlet property="tiet_cos" destination="FgY-b4-m9N" id="Gxg-Bl-Hdk"/>
                     </connections>
                 </viewController>
@@ -97,10 +120,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="01 - Carretó.png" width="736" height="611"/>
         <image name="01-Granja-RET.jpg" width="2048" height="1536"/>
         <image name="01_Arbres1.png" width="744" height="576"/>
         <image name="01_Carlota_Estatica.png" width="270" height="190"/>
         <image name="01_Carlota_bici01.png" width="638" height="768"/>
+        <image name="01_merli_estatic.png" width="403" height="249"/>
         <image name="01_planta Verda1.png" width="400" height="402"/>
         <image name="01_planta groga1.png" width="164" height="236"/>
         <image name="01_plantes liles1.png" width="386" height="530"/>
