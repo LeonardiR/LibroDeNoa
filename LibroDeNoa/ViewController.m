@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [[SoundManager sharedManager] playMusic:@"BG04.07_hort.mp3"];
+    [[SoundManager sharedManager]playSound:@"Narrador-sound"];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(notificationCallback:)
@@ -66,8 +67,8 @@
 
 - (void) moveBici {
 
-    CGRect beginRect = CGRectMake(46.0f, 0.0f, 407.0f, 413.0f);
-    CGRect endRect = CGRectMake(500.0f, 0.0f, 407.0f, 413.0f);
+    CGRect beginRect = CGRectMake(-1000.0f, 0.0f, 407.0f, 413.0f);
+    CGRect endRect = CGRectMake(0.0f, 0.0f, 407.0f, 413.0f);
     
     [_carlotaBici setFrame:beginRect];
     
@@ -83,8 +84,8 @@
 
 - (void) moveHead {
     
-    CGRect beginRect = CGRectMake(105.0f, 31.0f, 148.0f, 107.0f);
-    CGRect endRect = CGRectMake(550.0f, 31.0f, 148.0f, 107.0f);
+    CGRect beginRect = CGRectMake(-1000.0f, 31.0f, 148.0f, 107.0f);
+    CGRect endRect = CGRectMake(50.0f, 31.0f, 148.0f, 107.0f);
     
     [_carlotaHead setFrame:beginRect];
     
@@ -117,7 +118,7 @@
     
     [_carlotaBici setAnimationImages:imagesBici];
     [_carlotaBici setAnimationRepeatCount:1.4];
-    [_carlotaBici setAnimationDuration:1.5f];
+    [_carlotaBici setAnimationDuration:2.0f];
     [_carlotaBici startAnimating];
     
 

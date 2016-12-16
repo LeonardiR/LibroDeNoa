@@ -1,3 +1,5 @@
 
 /* Class = "UILabel"; text = "Noa y su gato, Línux, pasan unos días en la granja del tío y la tía de Noa."; ObjectID = "yhb-Vw-oww"; */
 "yhb-Vw-oww.text" = "Noa y su gato, Línux, pasan unos días en la granja del tío y la tía de Noa.";
+
+"Narrador-sound" = "narrador01_fast_sp.mp3";

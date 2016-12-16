@@ -168,8 +168,6 @@
 		03C427C11A26596500228F3C /* ambientpag2_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03C427241A26596500228F3C /* ambientpag2_1.mp3 */; };
 		03C427C21A26596500228F3C /* copfusta_tiet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03C427251A26596500228F3C /* copfusta_tiet.mp3 */; };
 		03C427C31A26596500228F3C /* copfusta_tiet2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03C427261A26596500228F3C /* copfusta_tiet2.mp3 */; };
-		03C427C41A26596500228F3C /* Localizable 2.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03C427271A26596500228F3C /* Localizable 2.strings */; };
-		03C427C51A26596500228F3C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03C427281A26596500228F3C /* Localizable.strings */; };
 		03C427C61A26596500228F3C /* vol_ocell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03C427291A26596500228F3C /* vol_ocell.mp3 */; };
 		03C427CA1A2663C700228F3C /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C427C91A2663C700228F3C /* SoundManager.m */; };
 		4F99BE9E1E02B14A0021F320 /* Captura de pantalla 2016-12-15 a las 12.08.02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F99BE9D1E02B14A0021F320 /* Captura de pantalla 2016-12-15 a las 12.08.02.png */; };
@@ -353,14 +351,14 @@
 		03C427241A26596500228F3C /* ambientpag2_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ambientpag2_1.mp3; sourceTree = "<group>"; };
 		03C427251A26596500228F3C /* copfusta_tiet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = copfusta_tiet.mp3; sourceTree = "<group>"; };
 		03C427261A26596500228F3C /* copfusta_tiet2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = copfusta_tiet2.mp3; sourceTree = "<group>"; };
-		03C427271A26596500228F3C /* Localizable 2.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "Localizable 2.strings"; sourceTree = "<group>"; };
-		03C427281A26596500228F3C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		03C427291A26596500228F3C /* vol_ocell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vol_ocell.mp3; sourceTree = "<group>"; };
 		03C427C81A2663C700228F3C /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		03C427C91A2663C700228F3C /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		4F291D1C1E044B93002A50C7 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Main.strings; sourceTree = "<group>"; };
+		4F291D1D1E044B93002A50C7 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4F291D1F1E044BC6002A50C7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		4F291D201E044BC6002A50C7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4F99BE9D1E02B14A0021F320 /* Captura de pantalla 2016-12-15 a las 12.08.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Captura de pantalla 2016-12-15 a las 12.08.02.png"; path = "../Captura de pantalla 2016-12-15 a las 12.08.02.png"; sourceTree = "<group>"; };
-		4FE750221E02D79B00EB791C /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Main.strings; sourceTree = "<group>"; };
-		4FE750231E02D79B00EB791C /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -684,8 +682,6 @@
 				03C427241A26596500228F3C /* ambientpag2_1.mp3 */,
 				03C427251A26596500228F3C /* copfusta_tiet.mp3 */,
 				03C427261A26596500228F3C /* copfusta_tiet2.mp3 */,
-				03C427271A26596500228F3C /* Localizable 2.strings */,
-				03C427281A26596500228F3C /* Localizable.strings */,
 				03C427291A26596500228F3C /* vol_ocell.mp3 */,
 			);
 			path = Sounds;
@@ -854,6 +850,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
+				ca,
+				es,
 			);
 			mainGroup = 03C426441A26587800228F3C;
 			productRefGroup = 03C4264E1A26587800228F3C /* Products */;
@@ -876,7 +874,6 @@
 				03C4276E1A26596500228F3C /* 01_merli_estatic_cargolat.png in Resources */,
 				03C427321A26596500228F3C /* bafarada10.png in Resources */,
 				03C427AB1A26596500228F3C /* B_ID_6_ca.mp3 in Resources */,
-				03C427C41A26596500228F3C /* Localizable 2.strings in Resources */,
 				03C427961A26596500228F3C /* 04_papallona1_2.png in Resources */,
 				03C427BD1A26596500228F3C /* BG04.07_hort.mp3 in Resources */,
 				03C427A11A26596500228F3C /* B_ID_1_ca.mp3 in Resources */,
@@ -942,7 +939,6 @@
 				4F99BE9E1E02B14A0021F320 /* Captura de pantalla 2016-12-15 a las 12.08.02.png in Resources */,
 				03C4274D1A26596500228F3C /* 01_ocell_vola2.png in Resources */,
 				03C427C31A26596500228F3C /* copfusta_tiet2.mp3 in Resources */,
-				03C427C51A26596500228F3C /* Localizable.strings in Resources */,
 				03C427B41A26596500228F3C /* narrador01_fast_sp.mp3 in Resources */,
 				03C4273F1A26596500228F3C /* 01_Carlota_bici12.png in Resources */,
 				03C4274C1A26596500228F3C /* 01_ocell_vola1.png in Resources */,
@@ -1079,7 +1075,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				03C4265B1A26587800228F3C /* Base */,
-				4FE750221E02D79B00EB791C /* ca */,
+				4F291D1C1E044B93002A50C7 /* ca */,
+				4F291D1F1E044BC6002A50C7 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1088,7 +1085,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				03C426601A26587800228F3C /* Base */,
-				4FE750231E02D79B00EB791C /* ca */,
+				4F291D1D1E044B93002A50C7 /* ca */,
+				4F291D201E044BC6002A50C7 /* es */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
