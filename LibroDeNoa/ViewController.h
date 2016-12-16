@@ -13,11 +13,20 @@
 }
 @property (weak, nonatomic) IBOutlet UIImageView *capImage;
 @property (strong, nonatomic) IBOutlet UIImageView *tiet_cos;
+@property (weak, nonatomic) IBOutlet UIView *carlota;
 @property (weak, nonatomic) IBOutlet UILabel *storyLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *carlotaBici;
 @property (weak, nonatomic) IBOutlet UIImageView *carlotaHead;
+@property (weak, nonatomic) IBOutlet UIView *tioView;
+@property (weak, nonatomic) IBOutlet UIView *tiaView;
+@property (weak, nonatomic) IBOutlet UIView *carlotaView;
+@property (weak, nonatomic) IBOutlet UIView *linuxView;
 
 - (IBAction)clickTronc:(id)sender;
+- (IBAction)tioPressed:(id)sender;
+- (IBAction)tiaPressed:(id)sender;
+- (IBAction)carlotaPressed:(id)sender;
+- (IBAction)linuxPressed:(id)sender;
 
 
 @end

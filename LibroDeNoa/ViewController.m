@@ -37,7 +37,12 @@
     [_carlotaBici startAnimating];
     [_capImage setHidden:true];
     [_storyLabel setFont:[UIFont systemFontOfSize:35]];
+    _tioView.hidden = YES;
+    _tiaView.hidden = YES;
+    _carlotaView.hidden = YES;
+    _linuxView.hidden = YES;
 }
+
 
 - (void) configTietNormal {
     
@@ -77,7 +82,7 @@
     
     
     [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:2.0f];
+    [UIView setAnimationDuration:4.0f];
     
     [_carlotaBici setFrame:endRect];
     
@@ -88,14 +93,14 @@
 
 - (void) moveHead {
     
-    CGRect beginRect = CGRectMake(-1000.0f, 31.0f, 148.0f, 107.0f);
+    CGRect beginRect = CGRectMake(-950.0f, 31.0f, 148.0f, 107.0f);
     CGRect endRect = CGRectMake(50.0f, 31.0f, 148.0f, 107.0f);
     
     [_carlotaHead setFrame:beginRect];
     
     
     [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:2.0f];
+    [UIView setAnimationDuration:4.0f];
     
     [_carlotaHead setFrame:endRect];
     
@@ -121,8 +126,8 @@
     NSArray *imagesBici = [[NSArray alloc] initWithObjects:bici2, bici3, bici4, bici5, bici6,bici7, bici8, bici9, bici10, bici11, bici12, bici13, bici14, nil];
     
     [_carlotaBici setAnimationImages:imagesBici];
-    [_carlotaBici setAnimationRepeatCount:1.4];
-    [_carlotaBici setAnimationDuration:2.0f];
+    [_carlotaBici setAnimationRepeatCount:6];
+    [_carlotaBici setAnimationDuration:0.5f];
     [_carlotaBici startAnimating];
     
 
@@ -142,6 +147,51 @@
     }
 }
 
+- (IBAction)tioPressed:(id)sender {
+    _tioView.hidden = NO;
+    _tioView.alpha = 1.0f;
+    [UIView animateWithDuration:0.5 delay:3.0 options:0 animations:^{
+        _tioView.alpha = 0.0f;
+    } completion:^(BOOL finished) {
+        _tioView.hidden = YES;
+    }];
+}
+
+- (IBAction)tiaPressed:(id)sender {
+    _tiaView.hidden = NO;
+    _tiaView.alpha = 1.0f;
+    [UIView animateWithDuration:0.5 delay:3.0 options:0 animations:^{
+        _tiaView.alpha = 0.0f;
+    } completion:^(BOOL finished) {
+        _tiaView.hidden = YES;
+    }];
+
+
+}
+
+- (IBAction)carlotaPressed:(id)sender {
+    _carlotaView.hidden = NO;
+    _carlotaView.alpha = 1.0f;
+    [UIView animateWithDuration:0.5 delay:3.0 options:0 animations:^{
+        _carlotaView.alpha = 0.0f;
+    } completion:^(BOOL finished) {
+        _carlotaView.hidden = YES;
+    }];
+
+}
+
+- (IBAction)linuxPressed:(id)sender {
+    _linuxView.hidden = NO;
+    _linuxView.alpha = 1.0f;
+    [UIView animateWithDuration:0.5 delay:3.0 options:0 animations:^{
+        _linuxView.alpha = 0.0f;
+    } completion:^(BOOL finished) {
+        _linuxView.hidden = YES;
+    }];
+
+
+}
+
 - (void) notificationCallback:(NSNotification *)notification {
     
     if([[notification name] isEqualToString:SoundDidFinishPlayingNotification]) {
@@ -153,10 +203,6 @@
         }
     }
 }
-
-
-
-
 
 
 

@@ -92,6 +92,28 @@
                                 <rect key="frame" x="1191" y="441" width="240" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <view contentMode="scaleToFill" misplaced="YES" id="9Ag-A9-ZFC">
+                                <rect key="frame" x="564" y="358" width="429" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01_Carlota_bici01.png" id="b3p-7u-lDb">
+                                        <rect key="frame" x="46" y="0.0" width="407" height="413"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01_Carlota_Estatica.png" id="tcl-Ki-FCh">
+                                        <rect key="frame" x="105" y="31" width="148" height="107"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gHb-7m-eiX">
+                                        <rect key="frame" x="132" y="31" width="164" height="133"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="carlotaPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8DU-3M-Upb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.0050567208904109592" colorSpace="calibratedWhite"/>
+                            </view>
                             <view contentMode="scaleToFill" misplaced="YES" id="TOn-mC-O3Z">
                                 <rect key="frame" x="0.0" y="586" width="1366" height="438"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -126,33 +148,116 @@
                                             <segue destination="myk-UK-drX" kind="modal" id="yXP-Xs-jA3"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZKr-lL-H2M">
+                                        <rect key="frame" x="407" y="58" width="143" height="118"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="linuxPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dp2-0A-3s2"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" misplaced="YES" id="5C5-fC-AJC">
+                                        <rect key="frame" x="543" y="8" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bafarada08.png" id="pOH-mH-uw0">
+                                                <rect key="frame" x="-21" y="-9" width="281" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Me he dejado las gafas de sol en casa." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rEK-ne-rTP">
+                                                <rect key="frame" x="46" y="11" width="194" height="107"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="9Ag-A9-ZFC">
-                                <rect key="frame" x="564" y="358" width="429" height="359"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DPQ-sf-BKi">
+                                <rect key="frame" x="295" y="142" width="172" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="tioPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wOA-L1-C4B"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" misplaced="YES" id="Kp9-vT-932">
+                                <rect key="frame" x="444" y="72" width="296" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01_Carlota_bici01.png" id="b3p-7u-lDb">
-                                        <rect key="frame" x="46" y="0.0" width="407" height="413"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bafarada08.png" id="qhp-jc-6ee">
+                                        <rect key="frame" x="14" y="2" width="268" height="145"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="01_Carlota_Estatica.png" id="tcl-Ki-FCh">
-                                        <rect key="frame" x="105" y="31" width="148" height="107"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Esta leña hará un buen fuego." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bRL-PW-8nh">
+                                        <rect key="frame" x="75" y="21" width="221" height="107"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="0.0050567208904109592" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="g7r-UQ-XFG">
+                                <rect key="frame" x="1078" y="53" width="268" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bafarada08.png" id="aeY-qF-kp9">
+                                        <rect key="frame" x="0.0" y="5" width="268" height="145"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="¡Qué día tan bonito hace!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xo4-yF-2In">
+                                        <rect key="frame" x="60" y="24" width="180" height="107"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" id="uUD-1d-Mvi">
+                                <rect key="frame" x="844" y="304" width="262" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bafarada08.png" id="Vjb-uj-nZd">
+                                        <rect key="frame" x="-3" y="0.0" width="268" height="145"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="¡Vamos a explorar la granja!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aOo-Ut-qhN">
+                                        <rect key="frame" x="60" y="19" width="194" height="107"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sFa-Rl-CUF">
+                                <rect key="frame" x="933" y="142" width="153" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="tiaPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ksd-QR-yfT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="capImage" destination="34s-cK-ZAR" id="fLe-gw-Ml1"/>
+                        <outlet property="carlota" destination="9Ag-A9-ZFC" id="0Gu-W1-nmK"/>
                         <outlet property="carlotaBici" destination="b3p-7u-lDb" id="fYf-cF-LUH"/>
                         <outlet property="carlotaHead" destination="tcl-Ki-FCh" id="cuC-C3-qRK"/>
+                        <outlet property="carlotaView" destination="uUD-1d-Mvi" id="1Gu-cw-Hgz"/>
+                        <outlet property="linuxView" destination="5C5-fC-AJC" id="UDs-4w-stF"/>
                         <outlet property="storyLabel" destination="yhb-Vw-oww" id="usg-Aw-506"/>
+                        <outlet property="tiaView" destination="g7r-UQ-XFG" id="0Dv-Hy-k0u"/>
                         <outlet property="tiet_cos" destination="FgY-b4-m9N" id="Gxg-Bl-Hdk"/>
+                        <outlet property="tioView" destination="Kp9-vT-932" id="HVo-v4-XMB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -175,6 +280,7 @@
         <image name="01_tieta_cap_estatica.png" width="297" height="288"/>
         <image name="01_tieta_estatica.png" width="595" height="850"/>
         <image name="Captura de pantalla 2016-12-15 a las 12.08.02.png" width="625" height="459"/>
+        <image name="bafarada08.png" width="787" height="267"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
