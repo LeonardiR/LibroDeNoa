@@ -20,7 +20,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [[SoundManager sharedManager] playMusic:@"BG04.07_hort.mp3"];
-    [[SoundManager sharedManager]playSound:@"Narrador-sound"];
+    [[SoundManager sharedManager]playSound:@"narrador01_fast_sp.mp3"];
+    [[SoundManager sharedManager]playSound:@"narrador01_fast_ca.mp3"];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(notificationCallback:)
@@ -32,6 +33,8 @@
     [self movePedals];
     [self configTietNormal];
     [_tiet_cos startAnimating];
+    [_carlotaHead startAnimating];
+    [_carlotaBici startAnimating];
     [_capImage setHidden:true];
     [_storyLabel setFont:[UIFont systemFontOfSize:35]];
 }
@@ -79,6 +82,7 @@
     [_carlotaBici setFrame:endRect];
     
     [UIView commitAnimations];
+    
     
 }
 
